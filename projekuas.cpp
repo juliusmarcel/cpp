@@ -173,7 +173,7 @@ int main(){
     break;
     case '1':{
     harga= 13000;
-    cout<<"Masukkan jumlah ayam (dada) yang diinginkan: ";
+    cout<<"Masukkan Jumlah ayam (dada) yang diinginkan: ";
     cin>>x;
     jumlah=jml(harga,x);
     if (jumlah>=39000){
@@ -398,7 +398,7 @@ int main(){
             cout<<"Diskon 5%,diskon Nasi sebesar: Rp. "<<diskon<<endl;
             cout<<endl;
             }
-    else if (jumlah<18000){
+    else if (jumlah<12000){
             diskon=0;
             cout<<"Diskon 0%,diskon Nasi sebesar: Rp. "<<diskon<<endl;
             cout<<endl;
@@ -409,11 +409,11 @@ int main(){
     break;
 
     case '2':{
-    harga= 4000;
+    harga= 6000;
     cout<<"Masukkan jumlah Kentang yang diinginkan: ";
     cin>>x;
     jumlah=jml(harga,x);
-    if (jumlah>=12000){
+    if (jumlah>=18000){
             diskon= jumlah*5/100;
             cout<<"Diskon 5%,diskon Kentang sebesar: Rp. "<<diskon<<endl;
             cout<<endl;
