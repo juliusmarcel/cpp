@@ -167,7 +167,7 @@ int main(){
     menu();
     switch(fc){
     case '0':{
-    bayarlain=0;
+    bayarfc=0;
     cout<<endl;
     }
     break;
@@ -257,7 +257,7 @@ int main(){
     }
     switch(drink){
     case '0':{
-    bayarlain=0;
+    bayardrink=0;
     cout<<endl;
     }
     break;
@@ -381,13 +381,12 @@ int main(){
         cout<<endl;
         }
     }
-	switch(lain){
-	case '0':{
-        bayarlain=0;
-        cout<<endl;
-        }
+    switch(lain){
+    case '0':{
+    bayarlain=0;
+    cout<<endl;
+    }
     break;
-
     case '1':{
     harga= 4000;
     cout<<"Masukkan jumlah Nasi yang diinginkan: ";
@@ -407,7 +406,6 @@ int main(){
 	bayarlain=bayar(jumlah,diskon);
     }
     break;
-
     case '2':{
     harga= 6000;
     cout<<"Masukkan jumlah Kentang yang diinginkan: ";
